@@ -18,7 +18,7 @@ import Navbar from "../components/Navbar"
 
 const Home = () => {
   return (
-    <div className="bg-gray-50">
+    <div className="bg-gray-50 dark:bg-dark-900">
       <Hero/>
       <BuyerSellerMap/>
       <EximapsIntro/>

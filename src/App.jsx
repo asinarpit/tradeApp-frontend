@@ -18,7 +18,7 @@ function App() {
     <Router>
 
       <ScrollToTop />
-      <div className="min-h-screen bg-gray-50">
+      <div className="min-h-screen bg-gray-50 dark:bg-dark-900">
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -30,6 +30,7 @@ function App() {
           <Route path="/hs-codes" element={<ComingSoon />} />
           <Route path="/contact" element={<Contact />} />
           <Route path='/register' element={<Register />} />
+          <Route path='/login' element={<Login />} />
 
 
         </Routes>
@@ -41,7 +42,7 @@ function App() {
 
           <button
             aria-label="Contact Us by Phone"
-            className="w-11 h-11 sm:w-12 sm:h-12 rounded-full bg-yellow-500 hover:bg-yellow-600 text-white flex items-center justify-center shadow-2xl transition-colors"
+            className="w-11 h-11 sm:w-12 sm:h-12 rounded-full bg-primary-500 hover:bg-primary-600 dark:bg-primary-600 dark:hover:bg-primary-700 text-white flex items-center justify-center shadow-2xl transition-colors"
           >
             <Phone size={20} className="sm:w-6 sm:h-6" />
           </button>
@@ -49,7 +50,7 @@ function App() {
 
           <button
             aria-label="Contact Us on WhatsApp"
-            className="w-11 h-11 sm:w-12 sm:h-12 rounded-full bg-green-500 hover:bg-green-600 text-white flex items-center justify-center shadow-2xl transition-colors"
+            className="w-11 h-11 sm:w-12 sm:h-12 rounded-full bg-green-500 hover:bg-green-600 dark:bg-green-600 dark:hover:bg-green-700 text-white flex items-center justify-center shadow-2xl transition-colors"
           >
             <MessageCircle size={22} fill="white" className="sm:w-[26px] sm:h-[26px]" />
           </button>

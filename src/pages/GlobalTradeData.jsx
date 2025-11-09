@@ -2,18 +2,18 @@ import React from 'react';
 
 const GlobalTradeData = () => {
   return (
-    <div className="bg-white min-h-screen pt-16 pb-12 px-4 sm:px-6 lg:px-8">
+    <div className="bg-white dark:bg-dark-900 min-h-screen pt-16 pb-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-screen-xl mx-auto">
         <div className="mb-12">
-          <p className="text-sm text-gray-500 mb-2">
-            Home / <span className="text-gray-800 font-medium">Trade Data</span>
+          <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">
+            Home / <span className="text-gray-800 dark:text-gray-200 font-medium">Trade Data</span>
           </p>
 
-          <h1 className="text-4xl font-bold text-gray-800 mb-6">
+          <h1 className="text-4xl font-bold text-gray-800 dark:text-gray-100 mb-6">
             Global Trade Data
           </h1>
 
-          <div className="space-y-6 text-lg text-gray-600 max-w-4xl">
+          <div className="space-y-6 text-lg text-gray-600 dark:text-gray-400 max-w-4xl">
             <p>
               In a dynamic business environment marked with ever-growing global trade and disappearing borders,
               having access to crucial information is indispensable.
@@ -45,7 +45,7 @@ const GlobalTradeData = () => {
 
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
-          <div className="group flex flex-col rounded-lg shadow-lg border border-gray-100 overflow-hidden">
+          <div className="group flex flex-col rounded-lg shadow-lg border border-gray-100 dark:border-dark-700 overflow-hidden">
             
             <div className="relative overflow-hidden">
               <img
@@ -53,14 +53,14 @@ const GlobalTradeData = () => {
                 alt="Hands analyzing charts and data points"
                 className="w-full h-60 object-cover transition-transform duration-300 group-hover:scale-105" 
               />   
-              <button className="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-yellow-600 hover:bg-yellow-700 text-white font-semibold py-2 px-8 rounded-full shadow-md transition-colors text-base">
+              <button className="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-primary-600 hover:bg-primary-700 dark:bg-primary-700 dark:hover:bg-primary-800 text-white font-semibold py-2 px-8 rounded-full shadow-md transition-colors text-base">
                 By Product
               </button>
             </div>
 
             
-            <div className="p-5 flex-grow bg-white">
-              <p className="text-sm text-gray-600">
+            <div className="p-5 flex-grow bg-white dark:bg-dark-900">
+              <p className="text-sm text-gray-600 dark:text-gray-400">
                 Occasionally, there are latent opportunities waiting to be uncovered. Identify potential markets
                 for your product that may not be immediately apparent.
               </p>
@@ -68,7 +68,7 @@ const GlobalTradeData = () => {
           </div>
 
           
-          <div className="group flex flex-col rounded-lg shadow-lg border border-gray-100 overflow-hidden">
+          <div className="group flex flex-col rounded-lg shadow-lg border border-gray-100 dark:border-dark-700 overflow-hidden">
             
             <div className="relative overflow-hidden">
               <img
@@ -77,14 +77,14 @@ const GlobalTradeData = () => {
                 className="w-full h-60 object-cover transition-transform duration-300 group-hover:scale-105" 
               />
               
-              <button className="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-yellow-600 hover:bg-yellow-700 text-white font-semibold py-2 px-8 rounded-full shadow-md transition-colors text-base">
+              <button className="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-primary-600 hover:bg-primary-700 dark:bg-primary-700 dark:hover:bg-primary-800 text-white font-semibold py-2 px-8 rounded-full shadow-md transition-colors text-base">
                 By Country
               </button>
             </div>
 
             
-            <div className="p-5 flex-grow bg-white">
-              <p className="text-sm text-gray-600">
+            <div className="p-5 flex-grow bg-white dark:bg-dark-900">
+              <p className="text-sm text-gray-600 dark:text-gray-400">
                 Gain access to trade data from more than 180 countries. Analyze trade flows, market trends,
                 and supply-demand statistics at a country-specific level, between two specific markets or between
                 a specific market and the world.
@@ -93,7 +93,7 @@ const GlobalTradeData = () => {
           </div>
 
           
-          <div className="group flex flex-col rounded-lg shadow-lg border border-gray-100 overflow-hidden">
+          <div className="group flex flex-col rounded-lg shadow-lg border border-gray-100 dark:border-dark-700 overflow-hidden">
             
             <div className="relative overflow-hidden">
               <img
@@ -102,14 +102,14 @@ const GlobalTradeData = () => {
                 className="w-full h-60 object-cover transition-transform duration-300 group-hover:scale-105" 
               />
               
-              <button className="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-yellow-600 hover:bg-yellow-700 text-white font-semibold py-2 px-8 rounded-full shadow-md transition-colors text-base">
+              <button className="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-primary-600 hover:bg-primary-700 dark:bg-primary-700 dark:hover:bg-primary-800 text-white font-semibold py-2 px-8 rounded-full shadow-md transition-colors text-base">
                 By HSN Codes
               </button>
             </div>
 
             
-            <div className="p-5 flex-grow bg-white">
-              <p className="text-sm text-gray-600">
+            <div className="p-5 flex-grow bg-white dark:bg-dark-900">
+              <p className="text-sm text-gray-600 dark:text-gray-400">
                 Global trade trends capture the truest essence of international commerce. These go beyond mere
                 numbers. Understand and evaluate such trends to stay ahead of the curve.
               </p>

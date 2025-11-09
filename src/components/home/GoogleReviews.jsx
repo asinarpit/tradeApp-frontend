@@ -56,7 +56,7 @@ const StarRating = ({ rating }) => {
       <svg
         key={i}
         xmlns="http://www.w3.org/2000/svg"
-        className={`h-4 w-4 ${i <= rating ? 'text-yellow-500' : 'text-gray-300'}`}
+        className={`h-4 w-4 ${i <= rating ? 'text-primary-500 dark:text-primary-400' : 'text-gray-300'}`}
         viewBox="0 0 20 20"
         fill="currentColor"
       >
@@ -69,13 +69,13 @@ const StarRating = ({ rating }) => {
 
 const GoogleReviews = () => {
   return (
-    <section className="bg-gray-100 py-12 md:py-16">
+    <section className="bg-gray-100 dark:bg-dark-800 py-12 md:py-16">
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Title and Top Button */}
         <div className="flex items-center justify-between mb-8 sm:mb-10">
           <div className="flex items-center">
-            <span className="text-yellow-500 font-bold text-2xl sm:text-3xl mr-3 sm:mr-4 mt-1">||</span>
-            <h2 className="text-2xl sm:text-3xl font-bold text-gray-800">Google Reviews</h2>
+            <span className="text-primary-500 dark:text-primary-400 font-bold text-2xl sm:text-3xl mr-3 sm:mr-4 mt-1">||</span>
+            <h2 className="text-2xl sm:text-3xl font-bold text-gray-800 dark:text-gray-100">Google Reviews</h2>
           </div>
         </div>
 
@@ -105,7 +105,7 @@ const GoogleReviews = () => {
             {reviews.map((review) => (
               <SwiperSlide key={review.id}>
                 {/* Review Card */}
-                <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100 h-full flex flex-col justify-between">
+                <div className="bg-white dark:bg-dark-900 p-6 rounded-xl shadow-lg border border-gray-100 dark:border-dark-700 h-full flex flex-col justify-between">
                   <div>
                     {/* User Info and Rating */}
                     <div className="flex items-center mb-4">
@@ -121,8 +121,8 @@ const GoogleReviews = () => {
 
                       {/* Name and Time */}
                       <div className="flex flex-col">
-                        <span className="font-semibold text-gray-800 truncate">{review.name}</span>
-                        <span className="text-sm text-gray-500">3 weeks ago</span>
+                        <span className="font-semibold text-gray-800 dark:text-gray-100 truncate">{review.name}</span>
+                        <span className="text-sm text-gray-500 dark:text-gray-400 dark:text-gray-500">3 weeks ago</span>
                       </div>
                     </div>
 
@@ -130,18 +130,18 @@ const GoogleReviews = () => {
                     <div className="mb-4">
                       <StarRating rating={review.rating} />
                     </div>
-                    <p className="text-gray-700 min-h-[50px]">
+                    <p className="text-gray-700 dark:text-gray-300 min-h-[50px]">
                       {review.text}
                     </p>
                   </div>
 
-                  <div className="mt-4 pt-4 border-t border-gray-100 flex items-center">
+                  <div className="mt-4 pt-4 border-t border-gray-100 dark:border-dark-700 flex items-center">
                     <img
                       src="https://www.google.com/favicon.ico" // Using Google's favicon for the logo
                       alt="Google logo"
                       className="w-4 h-4 mr-2"
                     />
-                    <a href="#" className="text-sm text-gray-600 hover:text-blue-600 transition-colors font-medium">
+                    <a href="#" className="text-sm text-gray-600 dark:text-gray-400 dark:text-gray-500 hover:text-primary-600 dark:hover:text-primary-400 transition-colors font-medium">
                       View on Google
                     </a>
                   </div>
@@ -151,11 +151,11 @@ const GoogleReviews = () => {
           </Swiper>
 
           
-          <div className="swiper-button-prev-custom-reviews hidden lg:block absolute -left-16 top-1/2 -translate-y-1/2 z-10 cursor-pointer bg-gray-400 hover:bg-gray-300 p-2 rounded-full shadow-lg transition-all">
+          <div className="swiper-button-prev-custom-reviews hidden lg:block absolute -left-16 top-1/2 -translate-y-1/2 z-10 cursor-pointer bg-primary-500 hover:bg-primary-600 dark:bg-primary-600 dark:hover:bg-primary-700 p-2 rounded-full shadow-lg transition-all">
             <ChevronLeft className="text-white" />
           </div>
 
-          <div className="swiper-button-next-custom-reviews hidden lg:block absolute -right-16 top-1/2 -translate-y-1/2 z-10 cursor-pointer bg-gray-400 hover:bg-gray-300 p-2 rounded-full shadow-lg transition-all">
+          <div className="swiper-button-next-custom-reviews hidden lg:block absolute -right-16 top-1/2 -translate-y-1/2 z-10 cursor-pointer bg-primary-500 hover:bg-primary-600 dark:bg-primary-600 dark:hover:bg-primary-700 p-2 rounded-full shadow-lg transition-all">
             
             <ChevronRight className="text-white" />
           </div>
@@ -166,3 +166,6 @@ const GoogleReviews = () => {
 };
 
 export default GoogleReviews;
+
+
+

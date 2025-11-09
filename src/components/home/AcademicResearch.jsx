@@ -31,13 +31,13 @@ const reports = [
 
 const AcademicResearch = () => {
   return (
-    <section className="bg-gray-100 py-12 md:py-16">
+    <section className="bg-gray-100 dark:bg-dark-800 py-12 md:py-16">
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center mb-8 sm:mb-10">
           <div className="flex flex-col items-start">
             <div className="flex items-center">
-              <span className="text-yellow-500 font-bold text-2xl sm:text-3xl mr-3 sm:mr-4">||</span>
-              <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-800">Academic Research & Media Reports - Conclusions</h2>
+              <span className="text-primary-500 dark:text-primary-400 font-bold text-2xl sm:text-3xl mr-3 sm:mr-4">||</span>
+              <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-800 dark:text-gray-100">Academic Research & Media Reports - Conclusions</h2>
             </div>
           </div>
         
@@ -69,21 +69,21 @@ const AcademicResearch = () => {
             {reports.map((report) => (
               <SwiperSlide key={report.id}>
                 
-                <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100 h-full flex flex-col justify-between">
+                <div className="bg-white dark:bg-dark-900 p-8 rounded-xl shadow-lg border border-gray-100 h-full flex flex-col justify-between">
                   
-                  <p className="text-xl text-gray-800 relative mb-8">
+                  <p className="text-xl text-gray-800 dark:text-gray-100 relative mb-8">
                     
-                    <span className="text-yellow-500 text-5xl font-extrabold absolute -top-4 -left-6 opacity-70">
+                    <span className="text-primary-500 dark:text-primary-400 text-5xl font-extrabold absolute -top-4 -left-6 opacity-70">
                       “
                     </span>
                     {report.quote}
-                    <span className="text-yellow-500 text-5xl font-extrabold absolute -bottom-4 -right-6 opacity-70">
+                    <span className="text-primary-500 dark:text-primary-400 text-5xl font-extrabold absolute -bottom-4 -right-6 opacity-70">
                       ”
                     </span>
                   </p>
 
                   {/* Citation */}
-                  <p className="text-sm text-gray-600 leading-relaxed mt-auto pt-4 border-t border-gray-100">
+                  <p className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed mt-auto pt-4 border-t border-gray-100 dark:border-dark-700">
                     {report.citation}
                   </p>
                 </div>
@@ -92,11 +92,11 @@ const AcademicResearch = () => {
           </Swiper>
 
           {/* Custom Navigation Arrows (Hidden on mobile) */}
-          <div className="swiper-button-prev-custom-reports hidden lg:block absolute -left-16 top-1/2 -translate-y-1/2 z-10 cursor-pointer bg-gray-400 hover:bg-gray-300 p-2 rounded-md transition-all">
+          <div className="swiper-button-prev-custom-reports hidden lg:block absolute -left-16 top-1/2 -translate-y-1/2 z-10 cursor-pointer bg-primary-500 hover:bg-primary-600 dark:bg-primary-600 dark:hover:bg-primary-700 p-2 rounded-md transition-all">
             <ChevronLeft className='text-white' />
           </div>
 
-          <div className="swiper-button-next-custom-reports hidden lg:block absolute -right-16 top-1/2 -translate-y-1/2 z-10 cursor-pointer bg-gray-400 hover:bg-gray-300 p-2 rounded-md transition-all">
+          <div className="swiper-button-next-custom-reports hidden lg:block absolute -right-16 top-1/2 -translate-y-1/2 z-10 cursor-pointer bg-primary-500 hover:bg-primary-600 dark:bg-primary-600 dark:hover:bg-primary-700 p-2 rounded-md transition-all">
             <ChevronRight className='text-white' />
           </div>
         </div>
@@ -106,3 +106,7 @@ const AcademicResearch = () => {
 };
 
 export default AcademicResearch;
+
+
+
+

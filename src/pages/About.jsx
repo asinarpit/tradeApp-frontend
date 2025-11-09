@@ -20,19 +20,19 @@ const About = () => {
             </section>
 
             
-            <section className="bg-white py-16 px-4 sm:px-6 lg:px-8">
+            <section className="bg-white dark:bg-dark-800 py-16 px-4 sm:px-6 lg:px-8">
                 <div className="max-w-screen-xl mx-auto">
 
                     {/* Header */}
                     <div className='flex items-center gap-4 mb-8'>
-                        <span className="text-yellow-500 font-bold text-3xl">||</span>
-                        <h2 className="text-4xl font-bold font-serif italic text-gray-800">
+                        <span className="text-primary-500 dark:text-primary-400 font-bold text-3xl">||</span>
+                        <h2 className="text-4xl font-bold font-serif italic text-gray-800 dark:text-gray-100">
                             About Us
                         </h2>
                     </div>
 
                     
-                    <div className="space-y-6 text-lg text-gray-600">
+                    <div className="space-y-6 text-lg text-gray-600 dark:text-gray-300">
                         <p>
                             The Dollar Business is a global trade analysis platform that promotes international trade
                             with international buyers and suppliers which helps importers and exporters succeed. It
@@ -50,19 +50,19 @@ const About = () => {
                 </div>
             </section>
 
-            <section className="bg-white py-16 px-4 sm:px-6 lg:px-8">
+            <section className="bg-white dark:bg-dark-800 py-16 px-4 sm:px-6 lg:px-8">
                 <div className="max-w-screen-xl mx-auto">
 
                     {/* Header */}
                     <div className='flex items-center gap-4 mb-8'>
-                        <span className="text-yellow-500 font-bold text-3xl">||</span>
-                        <h2 className="text-4xl font-bold text-gray-800">
+                        <span className="text-primary-500 dark:text-primary-400 font-bold text-3xl">||</span>
+                        <h2 className="text-4xl font-bold text-gray-800 dark:text-gray-100">
                             EXIMAPS
                         </h2>
                     </div>
 
                     
-                    <div className="space-y-6 text-lg text-gray-600">
+                    <div className="space-y-6 text-lg text-gray-600 dark:text-gray-300">
                         <p>
                             In order to give exporters and importers around the world the most advanced trade analytics platform,
                             our hyper-engine EXIMAPS is jam-packed with countless formulas which stitch together ship loads of
@@ -77,19 +77,19 @@ const About = () => {
             </section>
 
 
-            <div className="h-4 bg-gray-50"></div>
+            <div className="h-4 bg-gray-50 dark:bg-dark-900"></div>
 
-            <section className="bg-white py-16 px-4 sm:px-6 lg:px-8">
+            <section className="bg-white dark:bg-dark-800 py-16 px-4 sm:px-6 lg:px-8">
                 <div className="max-w-screen-xl mx-auto">
 
                     <div className='flex items-center gap-4 mb-8'>
-                        <span className="text-yellow-500 font-bold text-3xl">||</span>
-                        <h2 className="text-4xl font-bold text-gray-800">
+                        <span className="text-primary-500 dark:text-primary-400 font-bold text-3xl">||</span>
+                        <h2 className="text-4xl font-bold text-gray-800 dark:text-gray-100">
                             Our Goal
                         </h2>
                     </div>
 
-                    <div className="space-y-6 text-lg text-gray-600">
+                    <div className="space-y-6 text-lg text-gray-600 dark:text-gray-300">
                         <p>
                             Our goal is to provide our clients with effective supply chains so they can gain a competitive advantage.
                             We provide both **macro** and **micro insights** into global supply and demand trends by analyzing importer
@@ -105,19 +105,19 @@ const About = () => {
                 </div>
             </section>
 
-            <div className="h-4 bg-gray-50"></div>
+            <div className="h-4 bg-gray-50 dark:bg-dark-900"></div>
 
-            <section className="bg-white py-16 px-4 sm:px-6 lg:px-8">
+            <section className="bg-white dark:bg-dark-800 py-16 px-4 sm:px-6 lg:px-8">
                 <div className="max-w-screen-xl mx-auto">
 
                     <div className='flex items-center gap-4 mb-8'>
-                        <span className="text-yellow-500 font-bold text-3xl">||</span>
-                        <h2 className="text-4xl font-bold text-gray-800">
+                        <span className="text-primary-500 dark:text-primary-400 font-bold text-3xl">||</span>
+                        <h2 className="text-4xl font-bold text-gray-800 dark:text-gray-100">
                             What lies ahead
                         </h2>
                     </div>
 
-                    <div className="space-y-6 text-lg text-gray-600">
+                    <div className="space-y-6 text-lg text-gray-600 dark:text-gray-300">
                         <p>
                             Our foundation is built upon the bricks of countless years of practical experience in **Import-export trade and business**.
                             By fostering meaningful relationships between importers and exporters, this **trade intelligence tool** aims to

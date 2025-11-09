@@ -2,18 +2,18 @@ import React from 'react';
 
 const PortAnalysis = () => {
   return (
-    <section className="bg-white py-16">
+    <section className="bg-white dark:bg-dark-900 py-16">
       <div className="max-w-screen-xl mx-auto px-4 flex flex-col lg:flex-row items-center lg:items-center gap-12">
         
         <div className="w-full lg:w-1/2 flex flex-col items-start">
           <div className='flex gap-4 mb-4'>
-            <span className="text-yellow-500 font-bold text-3xl">||</span>
-            <h2 className="text-4xl font-bold text-gray-800">
+            <span className="text-primary-500 dark:text-primary-400 font-bold text-3xl">||</span>
+            <h2 className="text-4xl font-bold text-gray-800 dark:text-gray-100">
               Port Analysis: Manage your shipping process smoothly
             </h2>
           </div>
 
-          <p className="text-lg text-gray-600 mb-8">
+          <p className="text-lg text-gray-600 dark:text-gray-400 dark:text-gray-500 mb-8">
             Your ability to handle the entire shipping process will often
             determine the outcome of a foreign trade transaction. Answers to
             queries like,
@@ -25,7 +25,7 @@ const PortAnalysis = () => {
               <span className="flex items-center justify-center w-8 h-8 rounded-full bg-gray-800 text-white font-bold text-lg mr-3 flex-shrink-0">
                 1
               </span>
-              <p className="text-lg text-gray-600">
+              <p className="text-lg text-gray-600 dark:text-gray-400 dark:text-gray-500">
                 "What is the best way to transport my products to the buyer?"
               </p>
             </div>
@@ -35,7 +35,7 @@ const PortAnalysis = () => {
               <span className="flex items-center justify-center w-8 h-8 rounded-full bg-gray-800 text-white font-bold text-lg mr-3 flex-shrink-0">
                 2
               </span>
-              <p className="text-lg text-gray-600">
+              <p className="text-lg text-gray-600 dark:text-gray-400 dark:text-gray-500">
                 Which port is most capable of managing my shipment?
               </p>
             </div>
@@ -45,13 +45,13 @@ const PortAnalysis = () => {
               <span className="flex items-center justify-center w-8 h-8 rounded-full bg-gray-800 text-white font-bold text-lg mr-3 flex-shrink-0">
                 3
               </span>
-              <p className="text-lg text-gray-600">
+              <p className="text-lg text-gray-600 dark:text-gray-400 dark:text-gray-500">
                 Which port is my peer or competitor using?
               </p>
             </div>
           </div>
 
-          <p className="text-lg text-gray-600 max-w-xl">
+          <p className="text-lg text-gray-600 dark:text-gray-400 dark:text-gray-500 max-w-xl">
             Keep in mind that while theoretical research and computations can
             provide you with a wealth of information, the best place to look for
             information is in practical knowledge.
@@ -68,3 +68,6 @@ const PortAnalysis = () => {
 };
 
 export default PortAnalysis;
+
+
+

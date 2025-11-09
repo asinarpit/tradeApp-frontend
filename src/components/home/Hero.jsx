@@ -4,17 +4,18 @@ const Hero = () => {
     return (
         <div className="relative h-screen bg-black overflow-hidden flex items-center justify-center">
                 <div className="absolute inset-0 z-0">
-                    <video
+                    {/* <video
                         autoPlay
                         loop
                         muted
-                        playsInline
+                        // playsInline
                         className="w-full h-full object-cover"
                     >
-                        <source src="/in-bgvideo.webm" type="video/webm" />
+                        <source src="/hero-video.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
-                    </video>
-                    <div className="absolute inset-0 bg-black opacity-60"></div>
+                    </video> */}
+                    <img src="/hero-bg.jpeg" className="w-full h-full object-cover" alt="Hero Background" />
+                    <div className="absolute inset-0 bg-gradient-to-r from-black/80 to-transparent"></div>
                 </div>
 
             <div className="max-w-screen-xl mx-auto w-full h-full">
@@ -24,7 +25,7 @@ const Hero = () => {
                     <div className="max-w-3xl text-white">
                         {/* Yellow Bar and Title */}
                             <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold leading-tight mb-4">
-                                <span className="text-yellow-500 font-bold mr-2 sm:mr-4">||</span>
+                                <span className="text-primary-500 dark:text-primary-400 font-bold mr-2 sm:mr-4">||</span>
                                 The Original Company for Trade Data analysis.
                             </h1>
 
@@ -35,7 +36,7 @@ const Hero = () => {
                         <p className="text-sm sm:text-base lg:text-lg mb-3 sm:mb-4 max-w-xl text-gray-200">
                             Our platform, with over 21 million verified entities spanning 181 countries, ensures effortless usability through an intuitive interface that&apos;s sophisticated as it is user-friendly.
                         </p>
-                        <p className="text-base sm:text-lg md:text-xl font-semibold mb-6 sm:mb-8 text-yellow-500 italic">
+                        <p className="text-base sm:text-lg md:text-xl font-semibold mb-6 sm:mb-8 text-primary-500 dark:text-primary-400 italic">
                             Test our expertise. Experience THE ORIGINAL (You&apos;re welcome!)
                         </p>
 
@@ -53,3 +54,6 @@ const Hero = () => {
 };
 
 export default Hero;
+
+
+

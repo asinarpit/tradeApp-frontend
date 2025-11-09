@@ -123,19 +123,19 @@ const Pricing = () => {
   const planKeys = Object.keys(plans);
 
   return (
-    <div className="bg-gray-950 text-white min-h-screen px-4 py-16">
+    <div className="bg-gray-950 dark:bg-dark-950 text-white min-h-screen px-4 py-16">
       <div className="max-w-screen-xl mx-auto">
 
         <h1 className="text-4xl sm:text-3xl font-bold text-white mb-12">
           ALWAYS PRICED RIGHT!
         </h1>
 
-        <div className="overflow-x-auto border border-gray-800 rounded-lg">
+        <div className="overflow-x-auto border border-gray-800 dark:border-dark-700 rounded-lg">
           <table className="min-w-full table-auto border-collapse">
 
             <thead>
-              <tr className="bg-gray-900 border-b border-gray-800">
-                <th className="sticky left-0 bg-gray-900 text-left py-4 px-6 text-base font-bold text-white min-w-[250px] whitespace-nowrap">
+              <tr className="bg-gray-900 dark:bg-dark-900 border-b border-gray-800 dark:border-dark-700">
+                <th className="sticky left-0 bg-gray-900 dark:bg-dark-900 text-left py-4 px-6 text-base font-bold text-white min-w-[250px] whitespace-nowrap">
                   Features
                 </th>
 
@@ -144,10 +144,10 @@ const Pricing = () => {
                   return (
                     <th
                       key={key}
-                      className={`py-4 px-4 text-center border-l border-gray-800 relative min-w-[150px]
-                        ${plan.name === 'CONQUER' ? 'bg-yellow-600 bg-opacity-10' : ''}`}
+                      className={`py-4 px-4 text-center border-l border-gray-800 dark:border-dark-700 relative min-w-[150px]
+                        ${plan.name === 'CONQUER' ? 'bg-primary-600 dark:bg-primary-700 bg-opacity-10' : ''}`}
                     >
-                      <h3 className={`text-lg font-extrabold mb-1 ${plan.name === 'CONQUER' ? 'text-yellow-500' : 'text-white'}`}>{plan.name}</h3>
+                      <h3 className={`text-lg font-extrabold mb-1 ${plan.name === 'CONQUER' ? 'text-primary-500 dark:text-primary-400' : 'text-white'}`}>{plan.name}</h3>
                     </th>
                   );
                 })}
@@ -159,23 +159,23 @@ const Pricing = () => {
 
                 if (feature.isGroupHeader) {
                   return (
-                    <tr key={index} className="bg-gray-800 border-t border-b border-gray-700">
-                      <td className="sticky left-0 bg-gray-800 py-2 px-6 text-sm font-bold text-yellow-500 uppercase whitespace-nowrap">
+                    <tr key={index} className="bg-gray-800 dark:bg-dark-800 border-t border-b border-gray-700 dark:border-dark-700">
+                      <td className="sticky left-0 bg-gray-800 dark:bg-dark-800 py-2 px-6 text-sm font-bold text-primary-500 dark:text-primary-400 uppercase whitespace-nowrap">
                         {feature.name}
                       </td>
-                      <td colSpan={planKeys.length} className="py-2 px-4 border-l border-gray-700"></td>
+                      <td colSpan={planKeys.length} className="py-2 px-4 border-l border-gray-700 dark:border-dark-700"></td>
                     </tr>
                   );
                 }
 
 
                 return (
-                  <tr key={index} className="border-b border-gray-900 transition-colors hover:bg-gray-900">
+                  <tr key={index} className="border-b border-gray-900 dark:border-dark-800 transition-colors hover:bg-gray-900 dark:hover:bg-dark-800">
 
                     <td className="sticky left-0 py-3 px-6 text-left font-medium text-white bg-inherit min-w-[250px] whitespace-nowrap">
                       {feature.name}
                       {feature.name === 'Port Analysis' && (
-                        <span className="text-xs text-yellow-500 block">THE ONLY PLATFORM IN THE INDUSTRY TO OFFER THIS FEATURE*</span>
+                        <span className="text-xs text-primary-500 dark:text-primary-400 block">THE ONLY PLATFORM IN THE INDUSTRY TO OFFER THIS FEATURE*</span>
                       )}
                     </td>
 
@@ -183,7 +183,7 @@ const Pricing = () => {
                       const value = feature[key];
 
                       return (
-                        <td key={key} className="py-3 px-4 text-center border-l border-gray-800">
+                        <td key={key} className="py-3 px-4 text-center border-l border-gray-800 dark:border-dark-700">
                           {renderFeatureStatus(value)}
                         </td>
                       );
@@ -193,44 +193,44 @@ const Pricing = () => {
               })}
 
 
-              <tr className="border-t border-gray-700 bg-gray-900">
-                <td className="sticky left-0 bg-gray-900 py-4 px-6 text-left font-medium text-white whitespace-nowrap">
+              <tr className="border-t border-gray-700 dark:border-dark-700 bg-gray-900 dark:bg-dark-900">
+                <td className="sticky left-0 bg-gray-900 dark:bg-dark-900 py-4 px-6 text-left font-medium text-white whitespace-nowrap">
                   Number of logins
                 </td>
                 {planKeys.map((key) => (
-                  <td key={key} className="py-4 px-4 text-center border-l border-gray-800 text-lg font-bold">
+                  <td key={key} className="py-4 px-4 text-center border-l border-gray-800 dark:border-dark-700 text-lg font-bold">
                     {plans[key].logins}
-                    {key !== 'Trial' && <sup className='text-yellow-500'>**</sup>}
+                    {key !== 'Trial' && <sup className='text-primary-500 dark:text-primary-400'>**</sup>}
                   </td>
                 ))}
               </tr>
 
 
-              <tr className="bg-gray-900">
-                <td className="sticky left-0 bg-gray-900 py-4 px-6 text-left font-medium text-white whitespace-nowrap">
+              <tr className="bg-gray-900 dark:bg-dark-900">
+                <td className="sticky left-0 bg-gray-900 dark:bg-dark-900 py-4 px-6 text-left font-medium text-white whitespace-nowrap">
                   Validity
                 </td>
                 {planKeys.map((key) => {
                   const plan = plans[key];
                   return (
-                    <td key={key} className="py-4 px-4 text-center border-l border-gray-800">
+                    <td key={key} className="py-4 px-4 text-center border-l border-gray-800 dark:border-dark-700">
                       <p className="font-semibold">{plan.duration}</p>
-                      <div className={`mt-2 ${plan.name === 'Trial' ? 'text-gray-500' : 'text-yellow-500'}`}>
+                      <div className={`mt-2 ${plan.name === 'Trial' ? 'text-gray-500 dark:text-gray-600' : 'text-primary-500 dark:text-primary-400'}`}>
                         {plan.price}
                       </div>
-                      <p className="text-xs text-gray-500 mt-1">{plan.loginNote}</p>
+                      <p className="text-xs text-gray-500 dark:text-gray-600 mt-1">{plan.loginNote}</p>
                     </td>
                   );
                 })}
               </tr>
 
-              <tr className="bg-gray-900 border-t border-gray-800">
-                <td className="sticky left-0 bg-gray-900 py-4 px-6">
+              <tr className="bg-gray-900 dark:bg-dark-900 border-t border-gray-800 dark:border-dark-700">
+                <td className="sticky left-0 bg-gray-900 dark:bg-dark-900 py-4 px-6">
                 </td>
                 {planKeys.map((key) => {
                   const plan = plans[key];
                   return (
-                    <td key={key} className="py-6 px-4 text-center border-l border-gray-800">
+                    <td key={key} className="py-6 px-4 text-center border-l border-gray-800 dark:border-dark-700">
                       <button className={`w-full max-w-[150px] mx-auto py-3 rounded-full text-black text-sm font-semibold transition-colors ${plan.buttonClass}`}>
                         {plan.buttonText}
                       </button>
@@ -243,15 +243,15 @@ const Pricing = () => {
         </div>
 
 
-        <div className="mt-16 text-sm text-gray-400 space-y-2 max-w-screen-xl mx-auto">
+        <div className="mt-16 text-sm text-gray-400 dark:text-gray-500 space-y-2 max-w-screen-xl mx-auto">
           <p>
-            <span className="text-yellow-500 font-bold">#</span> Indicates limited access.
+            <span className="text-primary-500 dark:text-primary-400 font-bold">#</span> Indicates limited access.
           </p>
           <p>
-            <span className="text-yellow-500 font-bold">*</span> THE ONLY PLATFORM IN THE INDUSTRY TO OFFER THIS FEATURE
+            <span className="text-primary-500 dark:text-primary-400 font-bold">*</span> THE ONLY PLATFORM IN THE INDUSTRY TO OFFER THIS FEATURE
           </p>
           <p>
-            <span className="text-yellow-500 font-bold">**</span> Access to multiple user logins is enabled only for accounts registered using email addresses from a single private (non-public) domain.
+            <span className="text-primary-500 dark:text-primary-400 font-bold">**</span> Access to multiple user logins is enabled only for accounts registered using email addresses from a single private (non-public) domain.
           </p>
         </div>
       </div>
