@@ -7,12 +7,9 @@ const Dashboard = () => {
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center lg:items-start gap-8 sm:gap-12">
         {/* Left Side: Content */}
         <div className="w-full lg:w-2/3 flex flex-col items-start">
-        <div className='flex gap-3 sm:gap-4'>
-          <span className="text-primary-500 dark:text-primary-400 font-bold text-2xl sm:text-3xl mb-4 lg:mb-0">||</span>
-          <h2 className="text-3xl sm:text-4xl font-bold text-gray-800 dark:text-gray-100 mb-4">
-            Dashboard
-          </h2>
-        </div>
+        <h2 className="text-3xl sm:text-4xl font-bold text-gray-800 dark:text-gray-100 mb-4">
+          Dashboard
+        </h2>
           
           <p className="text-base sm:text-lg text-gray-600 dark:text-gray-500 mb-6 sm:mb-8">
             It understands you and makes it all easier
@@ -21,7 +18,7 @@ const Dashboard = () => {
           <div className="space-y-4 sm:space-y-6">
             {/* Feature 1 */}
             <div className="flex items-start">
-              <div className="text-white bg-purple-800 rounded-full flex-shrink-0 mr-3 sm:mr-4 w-7 h-7 sm:w-8 sm:h-8 flex justify-center items-center">
+              <div className="text-white bg-primary-600 dark:bg-primary-700 rounded-full flex-shrink-0 mr-3 sm:mr-4 w-7 h-7 sm:w-8 sm:h-8 flex justify-center items-center">
                 <Check size={18} className="sm:w-5 sm:h-5" />
               </div>
               <p className="text-sm sm:text-base lg:text-lg text-gray-700 dark:text-gray-300">
@@ -32,7 +29,7 @@ const Dashboard = () => {
 
             {/* Feature 2 */}
             <div className="flex items-start">
-              <div className="text-white bg-purple-800 rounded-full flex-shrink-0 mr-3 sm:mr-4 w-7 h-7 sm:w-8 sm:h-8 flex justify-center items-center">
+              <div className="text-white bg-primary-600 dark:bg-primary-700 rounded-full flex-shrink-0 mr-3 sm:mr-4 w-7 h-7 sm:w-8 sm:h-8 flex justify-center items-center">
                 <Check size={18} className="sm:w-5 sm:h-5" />
               </div>
               <p className="text-sm sm:text-base lg:text-lg text-gray-700 dark:text-gray-300">
@@ -43,7 +40,7 @@ const Dashboard = () => {
 
             {/* Feature 3 */}
             <div className="flex items-start">
-              <div className="text-white bg-purple-800 rounded-full flex-shrink-0 mr-3 sm:mr-4 w-7 h-7 sm:w-8 sm:h-8 flex justify-center items-center">
+              <div className="text-white bg-primary-600 dark:bg-primary-700 rounded-full flex-shrink-0 mr-3 sm:mr-4 w-7 h-7 sm:w-8 sm:h-8 flex justify-center items-center">
                 <Check size={18} className="sm:w-5 sm:h-5" />
               </div>
               <p className="text-sm sm:text-base lg:text-lg text-gray-700 dark:text-gray-300">

@@ -108,7 +108,7 @@ const Navbar = () => {
   return (
     
     <nav className={`${positionClass} top-0 left-0 right-0 z-20 transition-all duration-300 ${baseStyle}`}>
-      <div className="max-w-screen-xl mx-auto px-4 flex justify-between items-center">
+      <div className="max-w-screen-2xl mx-auto px-4 flex justify-between items-center">
         
         
         <NavLink to="/" className="text-xl font-bold">
@@ -160,7 +160,7 @@ const Navbar = () => {
           <ThemeToggle className={scrolled || !isHomePage ? 'text-gray-800' : 'text-white'} />
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className={`p-2 ${scrolled || !isHomePage ? 'text-gray-800' : 'text-white'}`}
+            className={`p-2 ${scrolled || !isHomePage ? 'text-gray-400' : 'text-white'}`}
             aria-label="Toggle menu"
           >
             {mobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
@@ -195,9 +195,9 @@ const Navbar = () => {
           ))}
 
           {/* Mobile Theme Toggle */}
-          <div className="pt-4 flex justify-center">
-            <ThemeToggle className="p-3" />
-          </div>
+          {/* <div className="pt-4 flex justify-center">
+            <ThemeToggle />
+          </div> */}
           
           {/* Mobile Auth Buttons */}
           <div className="pt-2 flex flex-col gap-4 border-t border-gray-200 dark:border-dark-700">

@@ -24,12 +24,9 @@ const About = () => {
                 <div className="max-w-screen-xl mx-auto">
 
                     {/* Header */}
-                    <div className='flex items-center gap-4 mb-8'>
-                        <span className="text-primary-500 dark:text-primary-400 font-bold text-3xl">||</span>
-                        <h2 className="text-4xl font-bold font-serif italic text-gray-800 dark:text-gray-100">
-                            About Us
-                        </h2>
-                    </div>
+                    <h2 className="text-4xl font-bold text-gray-800 dark:text-gray-100 mb-8">
+                        <span className="font-iserif italic text-primary-500 dark:text-primary-400 tracking-wide">About</span> Us
+                    </h2>
 
                     
                     <div className="space-y-6 text-lg text-gray-600 dark:text-gray-300">
@@ -54,12 +51,9 @@ const About = () => {
                 <div className="max-w-screen-xl mx-auto">
 
                     {/* Header */}
-                    <div className='flex items-center gap-4 mb-8'>
-                        <span className="text-primary-500 dark:text-primary-400 font-bold text-3xl">||</span>
-                        <h2 className="text-4xl font-bold text-gray-800 dark:text-gray-100">
-                            EXIMAPS
-                        </h2>
-                    </div>
+                    <h2 className="text-4xl font-bold text-gray-800 dark:text-gray-100 mb-8">
+                   EXIMAPS
+                    </h2>
 
                     
                     <div className="space-y-6 text-lg text-gray-600 dark:text-gray-300">
@@ -82,12 +76,9 @@ const About = () => {
             <section className="bg-white dark:bg-dark-800 py-16 px-4 sm:px-6 lg:px-8">
                 <div className="max-w-screen-xl mx-auto">
 
-                    <div className='flex items-center gap-4 mb-8'>
-                        <span className="text-primary-500 dark:text-primary-400 font-bold text-3xl">||</span>
-                        <h2 className="text-4xl font-bold text-gray-800 dark:text-gray-100">
-                            Our Goal
-                        </h2>
-                    </div>
+                    <h2 className="text-4xl font-bold text-gray-800 dark:text-gray-100 mb-8">
+                        Our <span className="font-iserif text-primary-500 italic dark:text-primary-400 tracking-wide">Goal</span>
+                    </h2>
 
                     <div className="space-y-6 text-lg text-gray-600 dark:text-gray-300">
                         <p>
@@ -110,12 +101,9 @@ const About = () => {
             <section className="bg-white dark:bg-dark-800 py-16 px-4 sm:px-6 lg:px-8">
                 <div className="max-w-screen-xl mx-auto">
 
-                    <div className='flex items-center gap-4 mb-8'>
-                        <span className="text-primary-500 dark:text-primary-400 font-bold text-3xl">||</span>
-                        <h2 className="text-4xl font-bold text-gray-800 dark:text-gray-100">
-                            What lies ahead
-                        </h2>
-                    </div>
+                    <h2 className="text-4xl font-bold text-gray-800 dark:text-gray-100 mb-8">
+                        What lies <span className="font-iserif text-primary-500 italic dark:text-primary-400 tracking-wide">Ahead</span>
+                    </h2>
 
                     <div className="space-y-6 text-lg text-gray-600 dark:text-gray-300">
                         <p>

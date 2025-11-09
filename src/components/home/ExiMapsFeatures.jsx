@@ -5,12 +5,9 @@ const EximapsFeatures = () => {
     <section className="bg-gray-100 dark:bg-dark-800 py-16">
       <div className="max-w-screen-xl mx-auto px-4">
         {/* Title and Subtitle */}
-        <div className="flex items-center mb-4">
-          <span className="text-primary-500 dark:text-primary-400 font-bold text-3xl mr-4">||</span>
-          <h2 className="text-4xl md:text-4xl font-bold text-gray-900 dark:text-gray-100 leading-snug">
-            Make the most of EXIMAPS with its unique features
-          </h2>
-        </div>
+        <h2 className="text-4xl md:text-4xl font-bold text-gray-900 dark:text-gray-100 leading-snug mb-4">
+          Make the most of <span className="font-iserif text-primary-500 dark:text-primary-400 italic tracking-wide">EXIMAPS</span> with its unique <span className=' tracking-wide font-iserif italic text-primary-500 dark:text-primary-400'>features</span>
+        </h2>
         <p className="text-lg text-gray-600 dark:text-gray-400 mb-12 max-w-2xl">
           With these superior features, you can optimize the use of technology, information, and actionable
           intelligence for your EXIMAPS experience:
@@ -28,10 +25,9 @@ const EximapsFeatures = () => {
               />
             </div>
             
-            <div className="flex items-center mb-3">
-              <span className="text-primary-500 dark:text-primary-400 font-bold text-xl mr-3">||</span>
-              <h3 className="text-xl font-bold text-gray-800 dark:text-gray-100">Convenient Dashboard</h3>
-            </div>
+            <h3 className="text-xl font-bold text-gray-800 dark:text-gray-100 mb-3">
+              Convenient Dashboard
+            </h3>
             <p className="text-gray-600 dark:text-gray-400">
               Utilize our intelligent dashboard for our growing network of the most astute
               customers on the planet.
@@ -48,10 +44,9 @@ const EximapsFeatures = () => {
               />
             </div>
 
-            <div className="flex items-center mb-3">
-              <span className="text-primary-500 dark:text-primary-400 font-bold text-xl mr-3">||</span>
-              <h3 className="text-xl font-bold text-gray-800 dark:text-gray-100">Trade Evaluation</h3>
-            </div>
+            <h3 className="text-xl font-bold text-gray-800 dark:text-gray-100 mb-3">
+              Trade Evaluation
+            </h3>
             <p className="text-gray-600 dark:text-gray-400">
               Gain more knowledge about supply chains and export-import markets, and increase
               the flexibility of your company.
@@ -68,10 +63,9 @@ const EximapsFeatures = () => {
               />
             </div>
 
-            <div className="flex items-center mb-3">
-              <span className="text-primary-500 dark:text-primary-400 font-bold text-xl mr-3">||</span>
-              <h3 className="text-xl font-bold text-gray-800 dark:text-gray-100">Port Examination</h3>
-            </div>
+            <h3 className="text-xl font-bold text-gray-800 dark:text-gray-100 mb-3">
+              Port Examination
+            </h3>
             <p className="text-gray-600 dark:text-gray-400">
               Choose a port that works for you to beat the competition
             </p>

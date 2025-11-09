@@ -7,14 +7,11 @@ const ExperienceEdge = () => {
         {/* Left Side: Content */}
         <div className="w-full lg:w-1/2 flex flex-col items-start">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-gray-100 mb-6 leading-tight">
-            Experience the EXIMAPS edge
+            Experience the <br /> <span className="font-iserif italic font-normal text-primary-500 dark:text-primary-400">EXIMAPS edge</span>
           </h1>
-          <div className="flex items-center mb-8">
-            <span className="text-primary-500 dark:text-primary-400 font-bold text-3xl mr-4">||</span>
-            <h2 className="text-3xl font-bold text-gray-800 dark:text-gray-100">
-              Take A Look at the EXIMAPS edge
-            </h2>
-          </div>
+          <h2 className="text-3xl font-bold text-gray-800 dark:text-gray-100 mb-8">
+            Take a look at the EXIMAPS edge
+          </h2>
 
           <p className="text-lg text-gray-600 dark:text-gray-400 mb-6 max-w-xl">
             Human intellect has developed to be the foundation of economic

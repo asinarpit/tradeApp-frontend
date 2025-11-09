@@ -12,12 +12,9 @@ const Discover = () => {
 
         {/* Right Side: Content */}
         <div className="w-full lg:w-1/2 flex flex-col items-start relative">
-          <div className='flex gap-4'>
-            <span className="text-primary-500 dark:text-primary-400 font-bold text-3xl mb-4 lg:mb-0">||</span>
-            <h2 className="text-4xl font-bold text-gray-800 dark:text-gray-100 mb-4">
-              Discover active buyers and identify credible sellers
-            </h2>
-          </div>
+          <h2 className="text-4xl font-bold text-gray-800 dark:text-gray-100 mb-4">
+            <span className="font-iserif italic tracking-wide text-primary-500 dark:text-primary-400">Discover</span> active buyers and identify credible sellers
+          </h2>
 
           <p className="text-lg text-gray-600 dark:text-gray-500 mb-8">
             Useful information for strategic decision-making
@@ -26,7 +23,7 @@ const Discover = () => {
           <div className="space-y-6">
             {/* Feature 1 */}
             <div className="flex items-start">
-              <div className="text-white bg-purple-800 rounded-full flex-shrink-0 mr-4 w-8 h-8 flex justify-center items-center">
+              <div className="text-white bg-primary-600 dark:bg-primary-700 rounded-full flex-shrink-0 mr-4 w-8 h-8 flex justify-center items-center">
                 <Check />
               </div>
               <p className="text-lg text-gray-600 dark:text-gray-500">
@@ -38,7 +35,7 @@ const Discover = () => {
 
             {/* Feature 2 */}
             <div className="flex items-start">
-              <div className="text-white bg-purple-800 rounded-full flex-shrink-0 mr-4 w-8 h-8 flex justify-center items-center">
+              <div className="text-white bg-primary-600 dark:bg-primary-700 rounded-full flex-shrink-0 mr-4 w-8 h-8 flex justify-center items-center">
                 <Check />
               </div>
               <p className="text-lg text-gray-600 dark:text-gray-500">
@@ -50,7 +47,7 @@ const Discover = () => {
 
             {/* Feature 3 */}
             <div className="flex items-start">
-              <div className="text-white bg-purple-800 rounded-full flex-shrink-0 mr-4 w-8 h-8 flex justify-center items-center">
+              <div className="text-white bg-primary-600 dark:bg-primary-700 rounded-full flex-shrink-0 mr-4 w-8 h-8 flex justify-center items-center">
                 <Check />
               </div>
               <p className="text-lg text-gray-600 dark:text-gray-500">

@@ -35,12 +35,10 @@ const AcademicResearch = () => {
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center mb-8 sm:mb-10">
           <div className="flex flex-col items-start">
-            <div className="flex items-center">
-              <span className="text-primary-500 dark:text-primary-400 font-bold text-2xl sm:text-3xl mr-3 sm:mr-4">||</span>
-              <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-800 dark:text-gray-100">Academic Research & Media Reports - Conclusions</h2>
-            </div>
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-800 dark:text-gray-100">
+              <span className="font-iserif text-primary-500 italic dark:text-primary-400 tracking-wide">Academic Research</span> & media reports - conclusions
+            </h2>
           </div>
-        
         </div>
 
         

@@ -8,12 +8,9 @@ const PowerOfAI = () => {
         {/* Left Side: Content */}
         <div className="w-full lg:w-1/2 flex flex-col items-start">
           {/* Title Block */}
-          <div className="flex items-start mb-4">
-            <span className="text-primary-500 dark:text-primary-400 font-bold text-3xl mr-4 mt-1">||</span>
-            <h2 className="text-4xl md:text-4xl font-bold text-gray-900 dark:text-gray-100 leading-snug">
-              The Power of AI, is yours to leverage!
-            </h2>
-          </div>
+          <h2 className="text-4xl md:text-4xl font-bold text-gray-900 dark:text-gray-100 leading-snug mb-4">
+            The <span className="font-iserif text-primary-500 dark:text-primary-400 italic tracking-wide">Power of AI</span>, is yours to leverage!
+          </h2>
 
           <p className="text-lg text-gray-600 dark:text-gray-400 mb-8 mt-2">
             What EXIMAPS performs for you is as follows:

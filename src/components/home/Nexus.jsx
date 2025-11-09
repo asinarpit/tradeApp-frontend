@@ -7,13 +7,9 @@ const Nexus = () => {
     <section className="bg-white dark:bg-dark-900 py-16">
       <div className="max-w-screen-xl mx-auto px-4">
         {/* Header and Title */}
-        <div className='flex gap-4 mb-4'>
-          <span className="text-primary-500 dark:text-primary-400 font-bold text-3xl">||</span>
-          <h2 className="text-3xl font-bold text-gray-800 dark:text-gray-100">
-            Nexus: To stay one step ahead of your competition, know who they are!
-          </h2>
-
-        </div>
+        <h2 className="text-3xl font-bold text-gray-800 dark:text-gray-100 mb-4">
+          <span className="font-iserif italic tracking-wide text-primary-500 dark:text-primary-400">Nexus:</span> To stay one step ahead of your competition, know who they are!
+        </h2>
 
         {/* Tabs */}
         <div className="flex border border-gray-200 w-fit p-2 rounded-full space-x-2 mb-8">
@@ -39,7 +35,7 @@ const Nexus = () => {
 
         {/* Content and Image */}
         <div className="flex flex-col">
-          <p className="text-lg text-gray-600 dark:text-gray-400 dark:text-gray-500 mb-10 max-w-4xl">
+          <p className="text-lg text-gray-600 dark:text-gray-500 mb-10 max-w-4xl">
             To whom does your rival sell? Who is his most avid customer? Who is the potential importer for you? Nexus has the answer. With such potent information with export
             import software at your disposal, you can assess your competitors' transactions more accurately and adjust your strategy accordingly, giving you a true and
             sustainable competitive advantage in the import export market.

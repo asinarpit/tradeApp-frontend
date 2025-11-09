@@ -127,7 +127,7 @@ const Pricing = () => {
       <div className="max-w-screen-xl mx-auto">
 
         <h1 className="text-4xl sm:text-3xl font-bold text-white mb-12">
-          ALWAYS PRICED RIGHT!
+          ALWAYS <span className="font-iserif text-primary-500 dark:text-primary-400 tracking-wide italic">PRICED RIGHT!</span> 
         </h1>
 
         <div className="overflow-x-auto border border-gray-800 dark:border-dark-700 rounded-lg">

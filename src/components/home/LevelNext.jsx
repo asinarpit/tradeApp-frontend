@@ -20,12 +20,9 @@ const LevelNext = () => {
         <div className="w-full lg:w-1/2 flex flex-col items-start relative">
 
           {/* Title Block */}
-          <div className="flex items-start mb-6">
-            <span className="text-primary-500 dark:text-primary-400 font-bold text-3xl mr-4 mt-1">||</span>
-            <h2 className="text-4xl md:text-4xl font-bold text-gray-900 dark:text-gray-100 leading-snug">
-              Taking Foreign Trade Analytics to Level Next
-            </h2>
-          </div>
+          <h2 className="text-4xl md:text-4xl font-bold text-gray-900 dark:text-gray-100 leading-snug mb-6">
+            Taking foreign trade analytics to <span className="font-iserif text-primary-500 dark:text-primary-400 italic tracking-wide">Level Next</span>
+          </h2>
 
 
           <div className="space-y-8 mt-4">

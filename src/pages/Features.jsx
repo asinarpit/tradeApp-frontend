@@ -58,12 +58,9 @@ const Features = () => {
 
       <section className="bg-white dark:bg-dark-800 py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-screen-xl mx-auto">
-          <div className='flex items-center gap-4 mb-4'>
-            <span className="text-primary-500 dark:text-primary-400 font-bold text-3xl">||</span>
-            <h2 className="text-3xl font-bold text-gray-800 dark:text-gray-100">
-              <span className='font-serif italic'>Advantage</span> EXIMAPS!
-            </h2>
-          </div>
+          <h2 className="text-3xl font-bold text-gray-800 dark:text-gray-100 mb-4">
+            <span className='font-iserif text-primary-500 dark:text-primary-400 tracking-wide italic'>Advantage</span> EXIMAPS!
+          </h2>
           <p className="text-lg text-gray-600 dark:text-gray-300">
             The Dollar Business offers you an unparalleled experience with EXIMAPS, a global export import information provider, 
             enabling importers and exporters to work together under one roof with the aid of cutting-edge technology driven by AI tools to 

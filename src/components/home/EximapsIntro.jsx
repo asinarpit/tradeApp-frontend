@@ -21,21 +21,18 @@ const ExiMapsIntro = () => {
           {/* Header */}
           
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-primary-500 dark:text-primary-400 mb-4">
-              Say <span className="text-white font-serif font-normal italic">hello</span> to EXIMAPS
+              Say <span className="text-white font-iserif font-light tracking-wide italic">hello</span> to EXIMAPS
             </h1>
           
 
           {/* Main Title */}
-          <div className="flex items-start mb-6 sm:mb-8">
-            <span className="text-primary-500 dark:text-primary-400 font-semibold text-2xl sm:text-3xl mr-3 sm:mr-4 mt-1">||</span>
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold leading-tight">
-              The Most Advanced AI-Powered Super Engine for Exporters & Importers
-            </h2>
-          </div>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold leading-tight mb-6 sm:mb-8">
+            The most <span className="font-iserif italic tracking-wide text-primary-500 dark:text-primary-400">advanced</span> AI-powered super engine for exporters & importers
+          </h2>
 
           {/* Description */}
-          <p className="text-sm sm:text-base lg:text-lg text-gray-400 dark:text-gray-500 mb-6 sm:mb-8 max-w-3xl">
-            A cutting-edge technology, the best software for import export business analysis brought to you by The Dollar Business, supports your foreign trade strategy by offering outstanding product analysis on international buyers and sellers worldwide in order to promote trade internationally and build business ties. We simplify international trading for firms by providing you with access to **20 million active enterprises** from **181 countries** via our platform, in a world where information is essential.
+          <p className="text-sm sm:text-base lg:text-lg text-gray-300 mb-6 sm:mb-8 max-w-3xl">
+            A cutting-edge technology, the best software for import export business analysis brought to you by The Dollar Business, supports your foreign trade strategy by offering outstanding product analysis on international buyers and sellers worldwide in order to promote trade internationally and build business ties. We simplify international trading for firms by providing you with access to 20 million active enterprises from 181 countries via our platform, in a world where information is essential.
           </p>
 
           {/* Call to Action */}

@@ -121,7 +121,7 @@ const BuyerSellerMap = () => {
   );
 
   return (
-    <div className="min-h-screen bg-white dark:bg-dark-900 relative">
+    <div className=" bg-white dark:bg-dark-900 relative">
       
         
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6 sm:pt-8 pb-12 sm:pb-16">
@@ -173,10 +173,10 @@ const BuyerSellerMap = () => {
           {/* Bottom Left Stats Box */}
           <div className="absolute bottom-4 left-4 sm:bottom-10 sm:left-10 p-3 sm:p-4 bg-white dark:bg-dark-800 rounded-xl shadow-xl border border-gray-200 dark:border-dark-700 z-10">
             <div className="text-sm sm:text-xl text-gray-900 dark:text-gray-100 mb-1">
-              Found <span className="text-xl sm:text-3xl font-bold font-serif italic">22,260,154</span> {activeTab}
+              Found <span className="text-xl sm:text-3xl font-bold font-iserif italic">22,260,154</span> {activeTab}
             </div>
             <div className="text-xs sm:text-lg text-gray-600  dark:text-gray-500">
-              from <span className="font-bold font-serif italic">181</span> Countries
+              from <span className="font-bold font-iserif italic">181</span> Countries
             </div>
           </div>
         </div>

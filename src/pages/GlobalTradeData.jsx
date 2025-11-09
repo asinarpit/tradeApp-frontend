@@ -10,7 +10,7 @@ const GlobalTradeData = () => {
           </p>
 
           <h1 className="text-4xl font-bold text-gray-800 dark:text-gray-100 mb-6">
-            Global Trade Data
+           <span className="font-iserif text-primary-500 dark:text-primary-400 tracking-wide italic">Global</span> Trade Data
           </h1>
 
           <div className="space-y-6 text-lg text-gray-600 dark:text-gray-400 max-w-4xl">

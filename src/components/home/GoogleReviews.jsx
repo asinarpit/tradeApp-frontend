@@ -72,12 +72,7 @@ const GoogleReviews = () => {
     <section className="bg-gray-100 dark:bg-dark-800 py-12 md:py-16">
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Title and Top Button */}
-        <div className="flex items-center justify-between mb-8 sm:mb-10">
-          <div className="flex items-center">
-            <span className="text-primary-500 dark:text-primary-400 font-bold text-2xl sm:text-3xl mr-3 sm:mr-4 mt-1">||</span>
-            <h2 className="text-2xl sm:text-3xl font-bold text-gray-800 dark:text-gray-100">Google Reviews</h2>
-          </div>
-        </div>
+            <h2 className="text-2xl sm:text-3xl font-bold text-gray-800 dark:text-gray-100 mb-8 sm:mb-10">Google Reviews</h2>
 
         {/* Swiper Container */}
         <div className="relative">
@@ -122,7 +117,7 @@ const GoogleReviews = () => {
                       {/* Name and Time */}
                       <div className="flex flex-col">
                         <span className="font-semibold text-gray-800 dark:text-gray-100 truncate">{review.name}</span>
-                        <span className="text-sm text-gray-500 dark:text-gray-400 dark:text-gray-500">3 weeks ago</span>
+                        <span className="text-sm text-gray-500 dark:text-gray-500">3 weeks ago</span>
                       </div>
                     </div>
 
@@ -141,7 +136,7 @@ const GoogleReviews = () => {
                       alt="Google logo"
                       className="w-4 h-4 mr-2"
                     />
-                    <a href="#" className="text-sm text-gray-600 dark:text-gray-400 dark:text-gray-500 hover:text-primary-600 dark:hover:text-primary-400 transition-colors font-medium">
+                    <a href="#" className="text-sm text-gray-600 dark:text-gray-500 hover:text-primary-600 dark:hover:text-primary-400 transition-colors font-medium">
                       View on Google
                     </a>
                   </div>

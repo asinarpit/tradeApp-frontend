@@ -79,8 +79,8 @@ const Contact = () => {
         </p>
 
         <div className="bg-gray-50 dark:bg-dark-800 p-8 mb-10 rounded-lg shadow-sm">
-             <h2 className="text-2xl font-bold font-serif italic text-gray-800 dark:text-gray-100 mb-6">
-              <span className="text-primary-500 dark:text-primary-400">||</span> Contact Us
+             <h2 className="text-2xl font-bold text-gray-800 dark:text-gray-100 mb-6">
+              <span className="font-iserif text-primary-500 dark:text-primary-400 tracking-wide italic">Contact</span> Us
             </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             
@@ -117,7 +117,7 @@ const Contact = () => {
           {/* Left Side: Office Locations */}
           <div className="lg:col-span-2">
             <h2 className="text-3xl font-bold text-gray-800 dark:text-gray-100 mb-6">
-              <span className="text-primary-500 dark:text-primary-400">||</span> THE DOLLAR BUSINESS
+              <span className="font-iserif text-primary-500 dark:text-primary-400">The Dollar Business</span>
             </h2>
 
             <div className="space-y-4">
@@ -128,7 +128,6 @@ const Contact = () => {
                     className="flex justify-between items-center w-full py-4 px-1 text-lg font-semibold text-gray-800 dark:text-gray-200 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
                   >
                     <span className="flex items-center gap-3">
-                      <span className="text-primary-500 dark:text-primary-400 font-bold text-xl">||</span>
                       {section.name}
                     </span>
                     {openSection === section.name ? <ChevronUp className="w-5 h-5 text-gray-600 dark:text-gray-400" /> : <ChevronDown className="w-5 h-5 text-gray-600 dark:text-gray-400" />}

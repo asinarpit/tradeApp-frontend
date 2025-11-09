@@ -13,7 +13,7 @@ const ThemeToggle = ({ className = '', iconSize = 20 }) => {
     <button
       onClick={handleClick}
       aria-label={`Switch to ${theme === 'light' ? 'dark' : 'light'} mode`}
-      className={`rounded-full p-2 text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-dark-700 transition-colors ${className}`}
+      className={`rounded-full w-8 h-8 bg-gray-100 dark:bg-dark-700 flex items-center justify-center text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-dark-700 transition-colors ${className}`}
     >
       {theme === 'light' ? (
         <Moon size={iconSize} className="w-5 h-5" />
